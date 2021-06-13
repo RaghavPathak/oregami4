@@ -1,0 +1,93 @@
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+.bodyimg{
+    display: flex;
+    text-align: center;
+}
+
+.head{
+    position: absolute;
+    top : 25%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.header{
+    background-color: black;
+}
+.header h1{
+    color: aqua;
+    text-align: center;
+    text-decoration: white;
+}
+.menu{
+   display: flex;
+   justify-content: space-between;
+   background-color: #000;
+   padding: 15px;
+   font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+  color: #ffffff;
+
+}
+.header{
+    position: relative;
+}
+.head h1{
+    text-align: center;
+}
+
+.uplayer{
+    position: relative;
+}
+.gridup{
+    display:flex;
+     justify-content: space-around;
+    
+
+}
+.griddown{
+    display: flex;
+    justify-content: space-around;
+}
+.ore hr{
+text-align: left;
+
+}
+.oregami{
+    border-radius: 20px;
+    background-color:#ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.oregami img{
+   
+    border: 2px inset ;
+    border-radius: 50px;
+    position: unset;
+}
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+    
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: blue;
+}
+
+.oregami:hover{
+  
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
